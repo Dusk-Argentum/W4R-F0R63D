@@ -1,0 +1,16 @@
+{
+  "react_role": {
+    "groups": {
+      "Example Group": {
+        "channel": "653629506455863297",
+        "message": "890397868291154010",
+        "reactions": {
+          "1": {
+            "emoji": "\u2601\ufe0f",
+            "role": "733317786033586248"
+          }
+        }
+      }
+    }
+  }
+}
