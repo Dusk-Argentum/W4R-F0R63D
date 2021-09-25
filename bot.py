@@ -223,11 +223,15 @@ grant to/from the text field of the post, as well as adding/removing the new/del
 Adds the specified reaction to the specified group.
 **`{PREFIX}react_role delete_reaction [group] [role]`** (Aliases: `dr`)
 Deletes the specified role and its associated reaction from the specified group.""", inline=False)
-        embed.add_field(name="ADVANCED:", value=f"""**`{PREFIX}react_role json export`** (Aliases: `j e`)
+        embed.add_field(name="ADVANCED:", value=f"""**`{PREFIX}react_role json example`** (Aliases: `j ex`)
+Exports an example JSON.
+**`{PREFIX}react_role json export`** (Aliases: `j e`)
 Exports the react_role JSON for editing purposes.
 **`{PREFIX}react_role json import`** (Aliases: `j i`)
 Imports the attached JSON and replaces the existing JSON with the attached JSON after passing some rudimentary checks.
-Please be advised that commands in the ADVANCED section could result in lost data if used improperly.""",
+Please be advised that commands in the ADVANCED section could result in lost data if used improperly.
+**`{PREFIX}react_role json load_backup`** (Aliases: `j back`, `j backup`, `j bu`, `j b`)
+Loads a backup JSON created based on the JSON replaced by `json import`.""",
                         inline=False)  # Seriously, don't use the JSON commands if you don't know what you're doing.
         # Even people who DO know what they're doing will sometimes make mistakes.
         embed.set_footer(text=f"Made by Dusk Argentum#6530 | {PREFIX}help | {VERSION}", icon_url=owner.avatar_url)
