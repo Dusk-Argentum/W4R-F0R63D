@@ -21,7 +21,7 @@ TOKEN = os.environ.get("W4R_TOKEN")  # This defines the unique token used by the
 # Stored in environmental variables for obscurity's sake.
 
 
-VERSION = "v1.0.0"  # Declares a VERSION global variable in an easily-editable space.
+VERSION = "v1.0.1a"  # Declares a VERSION global variable in an easily-editable space.
 
 
 intents = discord.Intents.default()  # This retrieves the default intents.
